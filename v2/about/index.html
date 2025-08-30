@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="preload"
+			importance="high"
+			href="/assets/font/PixelifySans-VariableFont_wght.ttf"
+			as="font"
+			type="font/ttf"
+			crossorigin="anonymous"
+		/>
+		<meta name="description" content="Check my CV" />
+		<title>C:\about</title>
+		<link
+			rel="icon"
+			type="image/png"
+			href="/assets/icons/favicon/favicon-96x96.png"
+			sizes="96x96"
+		/>
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="/assets/icons/favicon/favicon.svg"
+		/>
+		<link rel="shortcut icon" href="/assets/icons/favicon/favicon.ico" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="/assets/icons/favicon/apple-touch-icon.png"
+		/>
+		<meta name="apple-mobile-web-app-title" content="antoniopelusi.com" />
+		<link rel="manifest" href="/assets/icons/favicon/site.webmanifest" />
+		<link rel="stylesheet" href="/assets/styles/main.css" />
+		<link rel="stylesheet" href="/assets/styles/about.css" />
+	</head>
+	<body>
+		<div id="sidebar">
+			<button id="closeBtn">&times;</button>
+			<div id="sidebarHeader">
+				<div id="name-container">
+					<h2 id="name">Antonio Pelusi</h2>
+				</div>
+				<hr id="separator" />
+			</div>
+			<div id="sidebarMenu">
+				<ul>
+					<li>
+						<a
+							href="/"
+							onclick="setFromLink()"
+							class="rounded-link"
+						>
+							<span>Home</span>
+							<img
+								src="/assets/icons/w98_desktop_w95.webp"
+								alt="Home image"
+								class="normal"
+							/>
+						</a>
+						<script>
+							function setFromLink() {
+								sessionStorage.setItem("fromLink", "true");
+							}
+						</script>
+					</li>
+					<li>
+						<a href="/projects" class="rounded-link">
+							<span>Projects</span>
+							<img
+								src="/assets/icons/w98_catalog.webp"
+								alt="Projects image"
+								class="normal"
+							/>
+						</a>
+					</li>
+					<li>
+						<a class="rounded-link active">
+							<span>About</span>
+							<img
+								src="/assets/icons/w98_help_book_big.webp"
+								alt="About image"
+								class="normal"
+							/>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div id="sidebarFooter">
+				<a
+					href="mailto:antoniopelusi2000@gmail.com"
+					target="_blank"
+					class="circle-button"
+				>
+					<div class="icon-container">
+						<img
+							src="/assets/icons/w98_envelope_open_sheet.webp"
+							alt="Mail image"
+							class="icon-footer small"
+						/>
+						<span class="icon-footer-label">Email</span>
+					</div>
+				</a>
+				<a
+					href="https://www.linkedin.com/in/antoniopelusi/"
+					target="_blank"
+					class="circle-button"
+				>
+					<div class="icon-container">
+						<img
+							src="/assets/icons/w98_connected_world.webp"
+							alt="LinkedIn image"
+							class="icon-footer small"
+						/>
+						<span class="icon-footer-label">LinkedIn</span>
+					</div>
+				</a>
+				<a
+					href="https://github.com/antoniopelusi"
+					target="_blank"
+					class="circle-button"
+				>
+					<div class="icon-container">
+						<img
+							src="/assets/icons/w98_package.webp"
+							alt="GitHub image"
+							class="icon-footer small"
+						/>
+						<span class="icon-footer-label">GitHub</span>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="content">
+			<canvas id="matrix-canvas"></canvas>
+			<button id="openBtn">&#9776;</button>
+			<main>
+				<div id="titleContainer">
+					<img
+						src="/assets/icons/w98_help_book_big.webp"
+						alt="About"
+						class="small"
+					/>
+					<h1 id="pageTitle">About</h1>
+				</div>
+				<centered>
+					<noscript id="noscript-text">
+						<br />
+						<div>
+							<img
+								id="warning-img"
+								src="/assets/icons/w98_tip.webp"
+								class="small"
+							/>
+							<h3 id="warning">
+								Enable JavaScript to visualize the Curriculum
+								Vitae
+							</h3>
+						</div>
+						<br id="separator" />
+						<style>
+							#loader,
+							#loader-text {
+								visibility: hidden;
+							}
+						</style>
+					</noscript>
+				</centered>
+				<centered>
+					<a
+						id="small-btn"
+						class="rounded-link"
+						href="/assets/data/cv.pdf"
+						target="_blank"
+					>
+						<p>Open CV</p>
+					</a>
+				</centered>
+				<centered>
+					<div id="loader"></div>
+				</centered>
+				<centered>
+					<div id="loader-text">Loading CV...</div>
+				</centered>
+				<centered>
+					<div id="cvContainer"></div>
+				</centered>
+			</main>
+		</div>
+		<script src="/assets/scripts/pdf.min.js"></script>
+		<script src="/assets/scripts/main.js"></script>
+		<script src="/assets/scripts/about.js"></script>
+	</body>
+</html>

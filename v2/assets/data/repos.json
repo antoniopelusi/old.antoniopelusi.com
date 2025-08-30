@@ -1,0 +1,329 @@
+[
+    {
+        "created_at": "2021-05-26T15:40:15Z",
+        "name": "antoniopelusi",
+        "html_url": "https://github.com/antoniopelusi/antoniopelusi",
+        "languages": []
+    },
+    {
+        "created_at": "2022-09-25T11:52:20Z",
+        "name": "antoniopelusi.com",
+        "html_url": "https://github.com/antoniopelusi/antoniopelusi.com",
+        "languages": [
+            "HTML",
+            "JavaScript",
+            "CSS",
+            "Python",
+            "Makefile"
+        ]
+    },
+    {
+        "created_at": "2025-07-07T22:13:05Z",
+        "name": "blob-cli",
+        "html_url": "https://github.com/antoniopelusi/blob-cli",
+        "languages": [
+            "Python"
+        ]
+    },
+    {
+        "created_at": "2023-04-22T21:16:31Z",
+        "name": "CA-hash",
+        "html_url": "https://github.com/antoniopelusi/CA-hash",
+        "languages": [
+            "Python"
+        ]
+    },
+    {
+        "created_at": "2024-11-25T12:26:45Z",
+        "name": "cli-race",
+        "html_url": "https://github.com/antoniopelusi/cli-race",
+        "languages": [
+            "C",
+            "Makefile",
+            "Shell"
+        ]
+    },
+    {
+        "created_at": "2023-11-14T18:54:27Z",
+        "name": "CrowdChat",
+        "html_url": "https://github.com/antoniopelusi/CrowdChat",
+        "languages": [
+            "Java",
+            "Makefile",
+            "Shell"
+        ]
+    },
+    {
+        "created_at": "2024-06-21T10:15:50Z",
+        "name": "editorconfig-templates",
+        "html_url": "https://github.com/antoniopelusi/editorconfig-templates",
+        "languages": []
+    },
+    {
+        "created_at": "2020-06-01T20:14:26Z",
+        "name": "File-Splitter",
+        "html_url": "https://github.com/antoniopelusi/File-Splitter",
+        "languages": [
+            "Java"
+        ]
+    },
+    {
+        "created_at": "2023-03-16T23:07:20Z",
+        "name": "game-of-life-CLI",
+        "html_url": "https://github.com/antoniopelusi/game-of-life-CLI",
+        "languages": [
+            "Python",
+            "Shell"
+        ]
+    },
+    {
+        "created_at": "2021-05-26T17:53:47Z",
+        "name": "GamerAlley",
+        "html_url": "https://github.com/antoniopelusi/GamerAlley",
+        "languages": [
+            "HTML",
+            "Python",
+            "JavaScript",
+            "CSS",
+            "Dockerfile"
+        ]
+    },
+    {
+        "created_at": "2023-11-26T11:48:58Z",
+        "name": "GitChess",
+        "html_url": "https://github.com/antoniopelusi/GitChess",
+        "languages": [
+            "C",
+            "Makefile"
+        ]
+    },
+    {
+        "created_at": "2024-06-13T13:00:06Z",
+        "name": "gorilla",
+        "html_url": "https://github.com/antoniopelusi/gorilla",
+        "languages": [
+            "C",
+            "Makefile"
+        ]
+    },
+    {
+        "created_at": "2022-10-12T23:23:55Z",
+        "name": "JavaFX-Dark-Theme",
+        "html_url": "https://github.com/antoniopelusi/JavaFX-Dark-Theme",
+        "languages": [
+            "CSS"
+        ]
+    },
+    {
+        "created_at": "2020-11-09T17:18:15Z",
+        "name": "KeyHolder",
+        "html_url": "https://github.com/antoniopelusi/KeyHolder",
+        "languages": [
+            "Java",
+            "CSS"
+        ]
+    },
+    {
+        "created_at": "2021-05-17T08:51:39Z",
+        "name": "liferay-portal-stripe",
+        "html_url": "https://github.com/antoniopelusi/liferay-portal-stripe",
+        "languages": [
+            "Java",
+            "JavaScript",
+            "SCSS",
+            "CSS",
+            "TypeScript",
+            "FreeMarker",
+            "HTML",
+            "Groovy",
+            "Shell",
+            "Closure Templates",
+            "GAP",
+            "XSLT",
+            "Smarty",
+            "ANTLR",
+            "Ruby",
+            "Batchfile",
+            "Roff",
+            "Go",
+            "Dockerfile"
+        ]
+    },
+    {
+        "created_at": "2022-11-11T16:09:37Z",
+        "name": "lu-solver",
+        "html_url": "https://github.com/antoniopelusi/lu-solver",
+        "languages": [
+            "C",
+            "Cuda",
+            "Makefile"
+        ]
+    },
+    {
+        "created_at": "2022-10-22T19:14:51Z",
+        "name": "mtgDB",
+        "html_url": "https://github.com/antoniopelusi/mtgDB",
+        "languages": [
+            "Python"
+        ]
+    },
+    {
+        "created_at": "2024-10-25T15:44:00Z",
+        "name": "old.antoniopelusi.com",
+        "html_url": "https://github.com/antoniopelusi/old.antoniopelusi.com",
+        "languages": [
+            "HTML",
+            "SCSS",
+            "JavaScript",
+            "Shell",
+            "Ruby"
+        ]
+    },
+    {
+        "created_at": "2022-11-18T17:49:41Z",
+        "name": "openstreetmap-neo4j",
+        "html_url": "https://github.com/antoniopelusi/openstreetmap-neo4j",
+        "languages": [
+            "Python"
+        ]
+    },
+    {
+        "created_at": "2024-06-20T16:23:06Z",
+        "name": "qte",
+        "html_url": "https://github.com/antoniopelusi/qte",
+        "languages": [
+            "C",
+            "Makefile"
+        ]
+    },
+    {
+        "created_at": "2021-05-27T14:26:03Z",
+        "name": "RandomWordGenerator",
+        "html_url": "https://github.com/antoniopelusi/RandomWordGenerator",
+        "languages": [
+            "Java"
+        ]
+    },
+    {
+        "created_at": "2024-06-13T13:09:59Z",
+        "name": "Recoil-Rampage",
+        "html_url": "https://github.com/antoniopelusi/Recoil-Rampage",
+        "languages": [
+            "C",
+            "Lua",
+            "GLSL",
+            "Makefile",
+            "CMake",
+            "Shell",
+            "Zig",
+            "HTML",
+            "Batchfile",
+            "Meson",
+            "Roff"
+        ]
+    },
+    {
+        "created_at": "2024-06-13T12:40:03Z",
+        "name": "setcover-py",
+        "html_url": "https://github.com/antoniopelusi/setcover-py",
+        "languages": [
+            "Python"
+        ]
+    },
+    {
+        "created_at": "2023-05-27T11:36:57Z",
+        "name": "simpleDP",
+        "html_url": "https://github.com/antoniopelusi/simpleDP",
+        "languages": [
+            "Jupyter Notebook"
+        ]
+    },
+    {
+        "created_at": "2024-06-13T12:51:43Z",
+        "name": "snake",
+        "html_url": "https://github.com/antoniopelusi/snake",
+        "languages": [
+            "Python"
+        ]
+    },
+    {
+        "created_at": "2024-07-30T14:38:32Z",
+        "name": "steg",
+        "html_url": "https://github.com/antoniopelusi/steg",
+        "languages": [
+            "C",
+            "Makefile"
+        ]
+    },
+    {
+        "created_at": "2023-09-15T13:33:08Z",
+        "name": "Sudoku-Solver",
+        "html_url": "https://github.com/antoniopelusi/Sudoku-Solver",
+        "languages": [
+            "Python"
+        ]
+    },
+    {
+        "created_at": "2023-10-09T10:08:26Z",
+        "name": "Sudoku-Solver-Android",
+        "html_url": "https://github.com/antoniopelusi/Sudoku-Solver-Android",
+        "languages": [
+            "Kotlin"
+        ]
+    },
+    {
+        "created_at": "2025-01-04T13:18:07Z",
+        "name": "ToolsTab",
+        "html_url": "https://github.com/antoniopelusi/ToolsTab",
+        "languages": [
+            "JavaScript",
+            "CSS",
+            "HTML",
+            "Python",
+            "Makefile"
+        ]
+    },
+    {
+        "created_at": "2022-09-30T08:13:44Z",
+        "name": "Twitter-Analyzer",
+        "html_url": "https://github.com/antoniopelusi/Twitter-Analyzer",
+        "languages": [
+            "Java",
+            "CSS"
+        ]
+    },
+    {
+        "created_at": "2022-11-11T08:09:21Z",
+        "name": "vg-sales-analysis",
+        "html_url": "https://github.com/antoniopelusi/vg-sales-analysis",
+        "languages": [
+            "Jupyter Notebook",
+            "Python"
+        ]
+    },
+    {
+        "created_at": "2022-11-11T10:32:46Z",
+        "name": "vgchartzScrape",
+        "html_url": "https://github.com/antoniopelusi/vgchartzScrape",
+        "languages": [
+            "Python"
+        ]
+    },
+    {
+        "created_at": "2023-09-28T13:51:35Z",
+        "name": "water-consumption-ml",
+        "html_url": "https://github.com/antoniopelusi/water-consumption-ml",
+        "languages": [
+            "Jupyter Notebook"
+        ]
+    },
+    {
+        "created_at": "2022-12-06T15:48:08Z",
+        "name": "youtube-classification",
+        "html_url": "https://github.com/antoniopelusi/youtube-classification",
+        "languages": [
+            "Jupyter Notebook",
+            "Python"
+        ]
+    }
+]

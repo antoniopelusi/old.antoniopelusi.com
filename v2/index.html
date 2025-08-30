@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="preload"
+			importance="high"
+			href="/assets/font/PixelifySans-VariableFont_wght.ttf"
+			as="font"
+			type="font/ttf"
+			crossorigin="anonymous"
+		/>
+		<meta
+			name="description"
+			content="Personal website and projects archive"
+		/>
+		<title>C:\home</title>
+		<link
+			rel="icon"
+			type="image/png"
+			href="/assets/icons/favicon/favicon-96x96.png"
+			sizes="96x96"
+		/>
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="/assets/icons/favicon/favicon.svg"
+		/>
+		<link rel="shortcut icon" href="/assets/icons/favicon/favicon.ico" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="/assets/icons/favicon/apple-touch-icon.png"
+		/>
+		<meta name="apple-mobile-web-app-title" content="antoniopelusi.com" />
+		<link rel="manifest" href="/assets/icons/favicon/site.webmanifest" />
+		<link rel="stylesheet" href="/assets/styles/main.css" />
+		<link rel="stylesheet" href="/assets/styles/index.css" />
+		<noscript>
+			<style>
+				left img {
+					opacity: 1;
+				}
+			</style>
+		</noscript>
+	</head>
+	<body>
+		<div id="sidebar">
+			<button id="closeBtn">&times;</button>
+			<div id="sidebarHeader">
+				<div id="name-container">
+					<h2 id="name">Antonio Pelusi</h2>
+				</div>
+				<hr id="separator" />
+			</div>
+			<div id="sidebarMenu">
+				<ul>
+					<li>
+						<a class="rounded-link active">
+							<span>Home</span>
+							<img
+								src="/assets/icons/w98_desktop_w95.webp"
+								alt="Home image"
+								class="normal"
+							/>
+						</a>
+					</li>
+					<li>
+						<a href="/projects" class="rounded-link">
+							<span>Projects</span>
+							<img
+								src="/assets/icons/w98_catalog.webp"
+								alt="Projects image"
+								class="normal"
+							/>
+						</a>
+					</li>
+					<li>
+						<a href="/about" class="rounded-link">
+							<span>About</span>
+							<img
+								src="/assets/icons/w98_help_book_big.webp"
+								alt="About image"
+								class="normal"
+							/>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div id="sidebarFooter">
+				<a
+					href="mailto:antoniopelusi2000@gmail.com"
+					target="_blank"
+					class="circle-button"
+				>
+					<div class="icon-container">
+						<img
+							src="/assets/icons/w98_envelope_open_sheet.webp"
+							alt="Mail image"
+							class="icon-footer small"
+						/>
+						<span class="icon-footer-label">Email</span>
+					</div>
+				</a>
+				<a
+					href="https://www.linkedin.com/in/antoniopelusi/"
+					target="_blank"
+					class="circle-button"
+				>
+					<div class="icon-container">
+						<img
+							src="/assets/icons/w98_connected_world.webp"
+							alt="LinkedIn image"
+							class="icon-footer small"
+						/>
+						<span class="icon-footer-label">LinkedIn</span>
+					</div>
+				</a>
+				<a
+					href="https://github.com/antoniopelusi"
+					target="_blank"
+					class="circle-button"
+				>
+					<div class="icon-container">
+						<img
+							src="/assets/icons/w98_package.webp"
+							alt="GitHub image"
+							class="icon-footer small"
+						/>
+						<span class="icon-footer-label">GitHub</span>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="content">
+			<canvas id="matrix-canvas"></canvas>
+
+			<button id="openBtn">&#9776;</button>
+			<main>
+				<noscript>
+					<style>
+						main left div p,
+						main left div a,
+						main left div h2,
+						left img, #indexseparator {
+							visibility: visible;
+							opacity: 1;
+						}
+					</style>
+				</noscript>
+				<left>
+					<div id="nameFront">
+						<h1 id="pageTitle" class="hidden">Home</h1>
+						<h2>Hi, I am Antonio Pelusi</h2>
+						<img
+							src="/assets/icons/w98_globe_map.webp"
+							alt="Name"
+							class="big"
+						/>
+					</div>
+					<hr id="indexseparator" />
+					<br />
+					<div>
+						<img
+							src="/assets/icons/w98_certificate.webp"
+							alt="Degree"
+							class="small"
+						/>
+						<p>Ph.D in Computer Science</p>
+					</div>
+					<br />
+					<div>
+						<img
+							src="/assets/icons/w98_program_manager.webp"
+							alt="Projects"
+							class="small"
+						/>
+						<a href="projects">Browse my projects here</a>
+					</div>
+					<br />
+					<div>
+						<img
+							src="/assets/icons/w98_tree.webp"
+							alt="About"
+							class="small"
+						/>
+						<a href="about">Check out my CV here</a>
+					</div>
+				</left>
+			</main>
+		</div>
+		<script src="/assets/scripts/main.js"></script>
+		<script src="/assets/scripts/index.js"></script>
+	</body>
+</html>

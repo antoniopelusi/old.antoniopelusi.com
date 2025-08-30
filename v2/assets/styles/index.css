@@ -1,0 +1,93 @@
+color {
+	color: var(--bright-white);
+}
+
+left {
+	display: flex;
+	width: 100%;
+	max-width: 322px;
+	flex-direction: column;
+	align-items: left;
+	text-align: left;
+	background: var(--background);
+}
+
+left div {
+	width: 100%;
+	display: flex;
+	align-items: left;
+	text-align: left;
+	justify-content: left;
+	white-space: normal;
+}
+
+left img {
+	width: 32px;
+	min-width: 32px;
+	height: 32px;
+	min-height: 32px;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.visible {
+	opacity: 1;
+}
+
+left h2 {
+	font-size: 1.4em;
+	font-weight: 500;
+	color: var(--white);
+}
+
+left a,
+left p {
+	text-decoration: none;
+	font-size: 1.1em;
+	color: var(--white);
+	opacity: 0.8;
+}
+
+left a:hover {
+	text-decoration: underline;
+	color: var(--vintage);
+	text-decoration-color: var(--lightgray);
+}
+
+img.big {
+	width: 45px;
+	max-width: 45px;
+	min-width: 45px;
+	height: 45px;
+	max-height: 45px;
+	min-height: 45px;
+	padding: 0;
+    object-fit: cover;
+}
+
+#nameFront {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#indexseparator {
+	border: none;
+	height: 2px;
+	background-color: var(--button-hover);
+	margin-top: -2px;
+	width: 273px;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+
+.typing {
+	display: inline;
+	white-space: nowrap;
+	border-right: 2px solid var(--lightgray) !important;
+}
+
+main left div p, main left div a, main left div h2, left img {
+	visibility: hidden;
+	opacity: 0;
+}
